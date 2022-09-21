@@ -10,10 +10,6 @@ html, body {
     height: 100%;
 }
 
-h1 {
-    text-align: center;
-    margin-left: 40%;
-}
 .bg-cards {
     width: 100%;
     height: 100%;
@@ -21,6 +17,14 @@ h1 {
     border-top: 2px solid#4263eb;
     border-radius: 6px;
 }
+
+/* estilização img topic */
+.img-topic {
+    width: 85%;
+    background-color: #4263eb;
+    border-radius: 10% 30% 45% 75%;
+}
+
 
 /* estilização do footer */
 
@@ -59,7 +63,7 @@ footer .footerSocial li a {
     color:  #232323;
     display: inline-block;
     transition: 0.5s;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .footerSocial li a:hover {
