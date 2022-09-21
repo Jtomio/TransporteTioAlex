@@ -1,0 +1,84 @@
+/* Reset de config pag */
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Página de agradecimento */
+
+.containerThanks {
+    text-align: center;
+    margin: 40px auto;
+    width: 100%;
+    height: 70vh;
+    min-height: 100px;
+}
+
+img {
+    /* Define o tamanho da imagem */
+    width: 100%;
+  }
+  
+  img.avatar {
+    /* Estilização da imagem */
+    
+    width: 350px;
+    padding: 2.7px;
+  }
+
+.containerThanks p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* estilização do footer */
+
+.t-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid #4263eb;
+   
+   
+}
+
+.t-footerParagraph {
+    text-align: center;
+    margin-top: 0;
+    color: #232323;
+}
+
+.t-footer .t-footerSocial {
+    color: #232323;
+    position: relative;
+    display: flex;
+}
+
+.t-footerSocial li {
+    list-style: none;
+    
+}
+
+.t-footerSocial li a {
+    font-size: 1.5rem;
+    color: #232323;
+    display: inline-block;
+    transition: 0.5s;
+    margin: 0px 10px;
+}
+
+.t-footerSocial li a:hover {
+    opacity: 0.75;
+    transform: translateY(-10px) ;
+    color: #232323;
+}

@@ -164,7 +164,7 @@
                     <div class="col pb-2">
                         <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
                     </div>
-                    <div class="col pb-2">
+                    <div class="col">
                         <input type="email" name="email" class="form-control" placeholder="E-mail" required>
                     </div>
                     </div>
@@ -177,10 +177,12 @@
                 </div>
                 <button type="submit" class="btn btn-primary w-100 pt-1">Enviar</button>
                 </form>
-                <!-- no caption -->
-                <input type="text" name="_honey" style="display:none">
+                <!-- no captcha -->
+                <input type="hidden" name="_captcha" value="false">
                 <!-- template email -->
                 <input type="hidden" name="_template" value="table">
+                <!-- no next tks page -->
+                <input type="hidden" name="_next" value="#">
             </div>
         </div>    
     </section>
